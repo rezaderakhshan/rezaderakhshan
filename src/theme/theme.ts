@@ -21,7 +21,7 @@ export const theme = createTheme({
         }
 
         @font-face {
-          font-family: 'dana-med';
+          font-family: 'dana';
           font-style: normal;
           font-display: swap;
           font-weight: 500;
@@ -29,18 +29,18 @@ export const theme = createTheme({
           }
 
           @font-face {
-            font-family: 'dana-bold';
+            font-family: 'dana';
             font-style: normal;
             font-display: swap;
             font-weight: 700;
             src:  url(/fonts/danaBold.woff) format('woff');
           }
           @font-face {
-            font-family: 'dana-exBold';
+            font-family: 'dana';
             font-style: normal;
             font-display: swap;
             font-weight: 900;
-            src:  url(/fonts/danaExtrabold.woff) format('woff');
+            src:  url(./fonts/danaExtrabold.woff) format('woff');
           }
           @font-face {
             font-family: 'dana-fa';
@@ -71,9 +71,7 @@ export const theme = createTheme({
             src:  url(/fonts/DanaFaNum-ExtraBold.woff) format('woff');
           }
 
-          body {
-            font-family: "'dana', 'dana-fa', 'sans-serif'"
-          }
+         
           
       `,
     },
