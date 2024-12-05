@@ -12,6 +12,7 @@ export const theme = createTheme({
     h3: { fontSize: 24, fontWeight: 700, color: "#FFFEFEF2" },
     subtitle1: { fontSize: 24, fontWeight: 700, color: "#FFFEFEF2" },
     subtitle2: { fontSize: 16, color: "#F2F4F5", fontWeight: 600 },
+    body1: { fontSize: 16, color: "#fff", fontWeight: 500 },
     fontFamily: '"dana",  "sans-serif"',
   },
   components: {

@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import Link from "next/link";
 import { LinkedIn, Telegram, WhatsApp } from "@mui/icons-material";
+import ButtonMain from "./button-main";
 
 const ContactUs = () => {
   return (
@@ -38,7 +39,7 @@ const ContactUs = () => {
         },
       }}
     >
-      <Link href="tel:+989227960710">ارتباط با من</Link>
+      <ButtonMain type="link">ارتباط با من</ButtonMain>
 
       <Link
         href={
