@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import Grid2 from "@mui/material/Unstable_Grid2";
 import ImageContainer from "./image-container";
-import ContactUs from "./contact-us";
+import ContactUs from "../../components/contact-us";
 const Header = () => {
   return (
     <Box
