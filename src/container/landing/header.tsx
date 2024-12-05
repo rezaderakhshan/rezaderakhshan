@@ -24,22 +24,9 @@ const Header = () => {
               pl: 6,
             }}
           >
-            <Typography
-              variant="h1"
-              sx={{ fontSize: 60, fontWeight: 900, color: "#FD4312" }}
-            >
-              رضا درخشان
-            </Typography>
-            <Typography
-              variant="h3"
-              sx={{ fontSize: 24, fontWeight: 700, color: "#FFFEFEF2" }}
-            >
-              طراح و توسعه دهنده وب
-            </Typography>
-            <Typography
-              variant="subtitle2"
-              sx={{ fontSize: 16, color: "#F2F4F5", fontWeight: 600 }}
-            >
+            <Typography variant="h1">رضا درخشان</Typography>
+            <Typography variant="h3">طراح و توسعه دهنده وب</Typography>
+            <Typography variant="subtitle2">
               در این قسمت توضیح مختصری درباره خود بنویسید
             </Typography>
             <ContactUs />

@@ -7,6 +7,11 @@ import rtlPlugin from "stylis-plugin-rtl";
 export const theme = createTheme({
   direction: "rtl",
   typography: {
+    h1: { fontSize: 60, fontWeight: 900, color: "#FD4312" },
+    h2: { color: "#FD4312", fontSize: 36, fontWeight: 900 },
+    h3: { fontSize: 24, fontWeight: 700, color: "#FFFEFEF2" },
+    subtitle1: { fontSize: 24, fontWeight: 700, color: "#FFFEFEF2" },
+    subtitle2: { fontSize: 16, color: "#F2F4F5", fontWeight: 600 },
     fontFamily: '"dana",  "sans-serif"',
   },
   components: {
