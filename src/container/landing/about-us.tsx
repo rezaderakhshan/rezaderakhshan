@@ -5,7 +5,7 @@ import ButtonContainer from "./button-container";
 
 const AboutUs = () => {
   return (
-    <Container maxWidth={"lg"}>
+    <Container maxWidth={"lg"} sx={{ mt: 3 }}>
       <Grid2 container sx={{ alignItems: "center", justifyContent: "center" }}>
         <Grid2 xs={12} md={6}>
           <Typography variant="h2" sx={{ mb: 6 }}>

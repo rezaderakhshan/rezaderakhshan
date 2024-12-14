@@ -17,7 +17,12 @@ const ButtonContainer = () => {
     window.URL.revokeObjectURL(url);
   };
   return (
-    <ButtonMain variant="contained" type="button" onClick={handleDownload}>
+    <ButtonMain
+      variant="contained"
+      type="button"
+      sx={{ mt: 3 }}
+      onClick={handleDownload}
+    >
       دانلود رزومه
     </ButtonMain>
   );

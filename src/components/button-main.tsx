@@ -1,12 +1,19 @@
-import { Button } from "@mui/material";
+import { Button, SxProps, Theme } from "@mui/material";
 import Link from "next/link";
 type ButtonMainProps = {
   children: React.ReactNode;
   variant?: "contained" | "text" | "outlined";
   onClick?: () => void;
   type: "link" | "button";
+  sx?: SxProps<Theme>;
 };
-const ButtonMain = ({ children, variant, onClick, type }: ButtonMainProps) => {
+const ButtonMain = ({
+  children,
+  variant,
+  onClick,
+  type,
+  sx,
+}: ButtonMainProps) => {
   if (type === "link")
     return (
       <Link
@@ -27,6 +34,7 @@ const ButtonMain = ({ children, variant, onClick, type }: ButtonMainProps) => {
       <Button
         variant={variant}
         sx={{
+          ...sx,
           bgcolor: "#FD4312",
           color: "#fff",
           padding: "10px 28px 10px 28px",
